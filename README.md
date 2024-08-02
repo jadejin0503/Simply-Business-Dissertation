@@ -48,3 +48,7 @@ In this section, we examined the data type and missing values. Many visualizatio
 - One-hot Encoding for Categorical Variables
 - Standardization for Numerical Variables
 ### Predictive Modelling
+- Logistics Regression
+- Random Forest
+- XGBoost
+- Ensemble Model
