@@ -12,7 +12,9 @@ Public Data Source: https://www.financial-ombudsman.org.uk/decisions-case-studie
 1. *project.ipynb*: contains all codes with explanation for this project.
 2. *scrape.py*: download the metadata (and PDFs) of the Financial Ombudsman Decisions.
 3. *data_to_eda.csv.zip*: a zip file includes the processed data after NLP extraction and before EDA.
-4. *data_2023_2024.csv.zip*: an example dataframe includes what we extracted from PDFs. (we did not upload all years' data since they are too large)
+4. *data_2023_2024.csv.zip*: an example dataframe that includes what we extracted from PDFs. This CSV can be obtained by using scrape.py
+   to download CSV&PDF data and my code in *Data Cleaning and Preparation by Natural Language Processing*.
+   (we did not upload all years' data since they are too large)
 
 ## The structure of my codes (project.ipynb)
 ### Packages and Load Metadata
