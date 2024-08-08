@@ -1,10 +1,10 @@
 # Simply-Business-Dissertation
 This is the second project of my dissertation, which is related to the insurance industry.
 
-The aim of this project is to use NLP to deeply analyse the Financial Ombudsman Decisions (FOS) decision data and consumer
+This project aims to use NLP to deeply analyse the Financial Ombudsman Decisions (FOS) decision data and customer
 complaints, extracting valuable insights to identify common patterns, reasons, and trends in customer
 complaints. We also want to build binary classification models to predict the FOS decision. We hope the outcome can help Simply Business 
-improve their product and customer satisfaction so that can reduce future disputes.
+improve its product and customer satisfaction so that can reduce future disputes.
 
 Public Data Source: https://www.financial-ombudsman.org.uk/decisions-case-studies/ombudsman-decisions
 
@@ -17,14 +17,16 @@ Public Data Source: https://www.financial-ombudsman.org.uk/decisions-case-studie
    (we did not upload all years' data since they are too large)
 
 ## The structure of my codes (project.ipynb)
+I listed the basic structure and main points of my codes and the associated parts of my report.
+
 ### Packages and Load Metadata
 - install packages and load downloaded CSV data iteratively
 ### Data Cleaning and Preparation by Natural Language Processing 
-This part of code is related to the section 2 in my report.
+This part of the code is related to section 2 in my report.
 
 The key points are:
 - Extract Information From PDF files several times
-  - Merge data into a file with 6 years data from July 11, 2018, to July 11, 2024, and reprocess the text data
+  - Merge data into a file with 6 years of data from 11 July, 2018, to 11th July 2024, and reprocess the text data
 - Extract Insurance Product Type 
 - Data Cleaning
 - Extract Complaint Reason
@@ -34,7 +36,7 @@ The key points are:
   - save the processed data into a CSV file *data_to_eda.csv* to avoid repetitive code execution to improve efficiency
 ### Explanatory Data Analysis
 In this section, we examined the data type and missing values. Many visualizations with analysis are provided in the notebook.
-This part of code is related to the section 3 in my report.
+This part of the code is related to section 3 in my report.
 
 The key points are:
 - Correlation Analysis
@@ -57,7 +59,7 @@ The key points are:
   2. Insurance product changes over the years (Line chart)
   3. Customer complaint sentiments over the years (Line chart)
 ### Feature Engineering
-This part of code is related to the section 4 in my report.
+This part of the code is related to section 4 in my report.
 
 The key things we did:
 - Remove Irrelevant Variables
@@ -66,7 +68,8 @@ The key things we did:
 - One-hot Encoding for Categorical Variables
 - Standardization for Numerical Variables
 ### Predictive Modelling
-This part of code is related to the section 5&6 in my report. I explained why I selected and how to use them in the report.
+This part of the code is related to section 5&6 in my report. I explained why I selected them and how to use them in the report.
+
 
 I also checked the distribution of the target variable **decision**.
 The models we fit are:
